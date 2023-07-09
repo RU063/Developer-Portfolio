@@ -22,7 +22,8 @@ color: #FD6E0A;
 }
 .list{
   display: flex;
-}
+  align-items: center;
+  }
 nav a{
   text-decoration: none;
   color: #474747;
@@ -30,14 +31,13 @@ nav a{
 
 .item{
   list-style: none;
-  margin-right: 50px;
-  align-items: center;
+  margin-right: 50px; 
+  
 }
 
 .btn-primary{
   border-radius: 5px;
 background: #FD6E0A;
- 
 border: 0;
 font-size: 18px;
 font-weight: 700;
@@ -47,15 +47,16 @@ padding: 5px 5px;
 /* header related style */
 .header{
 background-color: #FFF8f3;
+background-image: url('../images/header_bg.png');
+background-repeat: no-repeat;
+background-position: bottom right;
+
 }
 .banner-container{
-padding: 30px 30px 30px 200px;
+padding: 30px 30px 0px 150px;
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
 align-items: center;
-}
-.banner-text{
-
 }
 .btn-secondary{width: 100px;
 height: 32px;
@@ -71,7 +72,53 @@ font-weight: 700;
   margin-right: 5px;
 }
 
-.banner-img{width: 500px;
-/* height: 100px;} */
+    .banner-img{width: 500px;}
+      /* padding-right: 20px;} */
+/* height: 70px;} */
+.banner-content{
+ max-width: 500px; 
+ justify-content: space-between;
+ margin-bottom: 70px;
+}
+.banner-greetings{
+  color: var(--dark-02, #474747);
+font-size: 45px;
+font-weight: 600;
+margin-bottom: 0;
+}
+.banner-title{
+  color: var(--dark-01, #181818);
+font-size: 85px;
+font-weight: 700;
+margin-top: 5px;
+margin-bottom: 20px;
+}
+.banner-description{
+  color: var(--dark-03, #757575);
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+margin-top: 0;
+}
+/* main section styles */
 
+/* about section styles */
+.about{
+  padding: 130px;
+  border: 1px solid #000;
+  background: #FFF8f3;
+  margin: 130px 0;
+}
+.section-title{
+  color: #181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+}
+.section-description{
+  color: #757575;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+}
 
