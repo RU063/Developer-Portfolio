@@ -10,6 +10,7 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0px 200px;
 }
 .nav-title{
   color: #181818;
@@ -22,6 +23,10 @@ color: #FD6E0A;
 .list{
   display: flex;
 }
+nav a{
+  text-decoration: none;
+  color: #474747;
+}
 
 .item{
   list-style: none;
@@ -29,14 +34,44 @@ color: #FD6E0A;
   align-items: center;
 }
 
-.ptimary-btn{
+.btn-primary{
   border-radius: 5px;
 background: #FD6E0A;
-  width: 80px;
-height: 30px;
+ 
 border: 0;
 font-size: 18px;
 font-weight: 700;
 color: white;
 padding: 5px 5px;
 }
+/* header related style */
+.header{
+background-color: #FFF8f3;
+}
+.banner-container{
+padding: 30px 30px 30px 200px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.banner-text{
+
+}
+.btn-secondary{width: 100px;
+height: 32px;
+border-radius: 5px;
+border: 1px solid #FD6E0A;
+padding: ;
+color: #FD6E0A;
+text-align: center;
+font-size: 18px;
+font-weight: 700;
+}
+.btn-padding{
+  margin-right: 5px;
+}
+
+.banner-img{width: 500px;
+/* height: 100px;} */
+
+
