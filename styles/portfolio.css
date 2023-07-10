@@ -177,7 +177,7 @@ font-weight: 400;
 font-size: 16px;
 font-weight: 400;
   }
-  /* resume-section-title */
+  /* resume-section-styles */
   .resume-column-title{
     color: #474747);
     font-size: 30px;
@@ -185,5 +185,35 @@ font-weight: 400;
   }
   .resume-container{
     display: flex;
+    gap: 75px;
   }
+  .resume-item{
+background: #FFF;
+  }
+ .resume-item-title{
+  color:  #474747;
+font-size: 30px;
+font-weight: 700;}
+.resume-item-institute{
+  color:  #474747;
+  font-size: 25px;
+  font-weight: 700; 
+}
+.resume-item-description{
+  color: #757575);
+  font-size: 20px;
+  font-weight: 500;
+}
+.cv-btn{
+  text-align: center;
+}
+.download-cv{
+  width: 200px;
+height: 64px;
+font-size: 20px;
+font-weight: 700;
+margin-top: 50px;
+
+}
+
  
